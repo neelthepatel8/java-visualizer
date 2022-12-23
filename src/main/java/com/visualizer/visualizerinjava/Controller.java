@@ -160,7 +160,7 @@ public class Controller {
 
         data = new ArrayList<>();
         values = new ArrayList<>();
-        labels = new ArrayList<>();
+//        labels = new ArrayList<>();
 
         visualizerPane.getChildren().clear();
         int size = Integer.parseInt(dataSizeTextField.getText());
