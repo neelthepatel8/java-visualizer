@@ -22,15 +22,15 @@
       <Pane fx:id="visualizerPane" prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="1" />
       <Pane fx:id="controlPane" prefHeight="200.0" prefWidth="200.0">
          <children>
-            <Button layoutX="14.0" layoutY="27.0" mnemonicParsing="false" onAction="#generateData" prefHeight="26.0" prefWidth="156.0" text="Generate Random Data" />
-            <Button fx:id="runButton" layoutX="832.0" layoutY="26.0" mnemonicParsing="false" onAction="#sort" prefHeight="26.0" prefWidth="48.0" text="Run" />
+            <Button fx:id="generateButton" layoutX="14.0" layoutY="27.0" mnemonicParsing="false" onAction="#generateData" prefHeight="26.0" prefWidth="156.0" text="Generate Random Data" />
+            <Button fx:id="runButton" layoutX="832.0" layoutY="26.0" mnemonicParsing="false" onAction="#sort" prefHeight="26.0" prefWidth="52" text="Run" />
             <Label layoutX="191.0" layoutY="32.0" text="Data Size:" />
             <TextField fx:id="dataSizeTextField" layoutX="253.0" layoutY="27.0" prefHeight="26.0" prefWidth="38.0" />
             <ChoiceBox fx:id="algorithmPicker" layoutX="314.0" layoutY="26.0" prefWidth="150.0" />
             <Slider fx:id="speedSlider" layoutX="524.0" layoutY="33.0" max="10" min="1" value="2" />
             <Label layoutX="482.0" layoutY="32.0" text="Speed" />
-            <Button fx:id="pauseButton" layoutX="772.0" layoutY="26.0" mnemonicParsing="false" onAction="#pause" prefWidth="51.0" text="Pause" />
-            <Button fx:id="stopButton" layoutX="712.0" layoutY="26.0" mnemonicParsing="false" onAction="#stop" prefWidth="51.0" text="Stop" />
+            <Button fx:id="pauseButton" layoutX="772.0" layoutY="26.0" mnemonicParsing="false" prefWidth="52" onAction="#pause" text="Pause" />
+            <Button fx:id="stopButton" layoutX="712.0" layoutY="26.0" mnemonicParsing="false"  prefWidth="52" onAction="#stop" text="Stop" />
          </children>
       </Pane>
    </children>
